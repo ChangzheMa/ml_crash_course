@@ -8,8 +8,8 @@ def valid_and_test_set():
     pd.options.display.max_rows = 10
     pd.options.display.float_format = '{:.1f}'.format
 
-    train_df = pd.read_csv('https://download.mlcc.google.com/mledu-datasets/california_housing_train.csv')
-    test_df = pd.read_csv('https://download.mlcc.google.com/mledu-datasets/california_housing_test.csv')
+    train_df = pd.read_csv('data/california_housing_train.csv')
+    test_df = pd.read_csv('data/california_housing_test.csv')
 
     print("train_df:", train_df)
     print("test_df:", test_df)
